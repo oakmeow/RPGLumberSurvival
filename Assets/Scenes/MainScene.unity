@@ -282,6 +282,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100066, guid: 1b7945602ded3ec43804b120aa9ed037, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1452352461}
+    - targetCorrespondingSourceObject: {fileID: 100066, guid: 1b7945602ded3ec43804b120aa9ed037, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1452352464}
   m_SourcePrefab: {fileID: 100100000, guid: 1b7945602ded3ec43804b120aa9ed037, type: 3}
 --- !u!1001 &920740918
 PrefabInstance:
@@ -424,6 +427,7 @@ GameObject:
   - component: {fileID: 1387014708}
   - component: {fileID: 1387014707}
   - component: {fileID: 1387014706}
+  - component: {fileID: 1387014709}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -505,6 +509,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1387014709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387014705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec51bf9c79b23f4387f3855af5c053a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1452352463}
+  offset: {x: 2, y: 4, z: 4}
+  smoothSpeed: 2
+  currentZoom: 1
+  maxZoom: 3
+  minZoom: 0.3
+  yawSpeed: 70
+  zoomSensitive: 0.7
 --- !u!1 &1452352456 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100066, guid: 1b7945602ded3ec43804b120aa9ed037, type: 3}
@@ -541,7 +565,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3
+  m_Speed: 2
   m_Acceleration: 1200
   avoidancePriority: 50
   m_AngularSpeed: 1200
@@ -568,7 +592,25 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 512
-  playerAnim: {fileID: 0}
+  playerAnim: {fileID: 1452352464}
+--- !u!4 &1452352463 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400066, guid: 1b7945602ded3ec43804b120aa9ed037, type: 3}
+  m_PrefabInstance: {fileID: 374366947}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1452352464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452352456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84318dd19991ff24f93db359c70ffc4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 1452352457}
 --- !u!1001 &1518040161
 PrefabInstance:
   m_ObjectHideFlags: 0

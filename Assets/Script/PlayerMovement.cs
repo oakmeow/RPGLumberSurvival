@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray,out hit,groundMask))
             {
-                Debug.Log(hit.collider.name);   // แสดงชื่อวัตถุที่เราคลิ๊ก
+                playerAnim.MovetoPoint(hit.point);
             }
         }
     }
