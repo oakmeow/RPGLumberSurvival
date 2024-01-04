@@ -13,7 +13,11 @@ public class Item : ScriptableObject
     // คำสั่งกรณีใช้ Item
     public void Use()
     {
-
+        if (name.Equals("Axe"))
+        {
+            PlayerMovement.instance.ShowAxe();
+            RemoveItemFromInventory();
+        }
     }
     public void RemoveItemFromInventory()
     {

@@ -7,6 +7,17 @@ public class PlayerMovement : MonoBehaviour
     Camera cam;
     public LayerMask groundMask;
     public PlayerAnimation playerAnim;
+    public GameObject inventoryUI;
+
+    public GameObject axe;
+    public bool showAxe = false;
+    public bool isAttack = false;
+    public static PlayerMovement instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
     void Start()
     {
         cam = Camera.main;
@@ -20,8 +31,17 @@ public class PlayerMovement : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray,out hit,groundMask))
             {
-                playerAnim.MovetoPoint(hit.point);
+                if (!inventoryUI.activeSelf)
+                {
+                    playerAnim.MovetoPoint(hit.point);
+                }
             }
         }
+    }
+
+    public void ShowAxe()
+    {
+        axe.SetActive(true);
+        showAxe = true;
     }
 }

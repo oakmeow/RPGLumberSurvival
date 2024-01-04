@@ -229,6 +229,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 100078, guid: 1b7945602ded3ec43804b120aa9ed037, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400066, guid: 1b7945602ded3ec43804b120aa9ed037, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -380,6 +384,90 @@ PrefabInstance:
       propertyPath: m_Name
       value: Inventory
       objectReference: {fileID: 0}
+    - target: {fileID: 114170573355145794, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 571910981}
+    - target: {fileID: 114170573355145794, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UseItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 114170573355145794, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: InventorySlot, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114180394287908348, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1878383162}
+    - target: {fileID: 114180394287908348, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RemoveItemFromInventory
+      objectReference: {fileID: 0}
+    - target: {fileID: 114180394287908348, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: InventorySlot, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114465363277359080, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1977647306}
+    - target: {fileID: 114465363277359080, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RemoveItemFromInventory
+      objectReference: {fileID: 0}
+    - target: {fileID: 114465363277359080, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: InventorySlot, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114550588493815710, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 547883843}
+    - target: {fileID: 114550588493815710, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UseItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 114550588493815710, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: InventorySlot, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114576259164151976, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 547883843}
+    - target: {fileID: 114576259164151976, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RemoveItemFromInventory
+      objectReference: {fileID: 0}
+    - target: {fileID: 114576259164151976, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: InventorySlot, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114596004541148426, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1878383162}
+    - target: {fileID: 114596004541148426, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UseItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 114596004541148426, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: InventorySlot, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114644163821632784, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 571910982}
+    - target: {fileID: 114644163821632784, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UseItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 114644163821632784, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: InventorySlot, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 114684760569403858, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
       propertyPath: m_Interactable
       value: 0
@@ -387,6 +475,38 @@ PrefabInstance:
     - target: {fileID: 114684760569403858, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 571910982}
+    - target: {fileID: 114684760569403858, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RemoveItemFromInventory
+      objectReference: {fileID: 0}
+    - target: {fileID: 114684760569403858, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: InventorySlot, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114937940396305470, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 571910981}
+    - target: {fileID: 114937940396305470, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RemoveItemFromInventory
+      objectReference: {fileID: 0}
+    - target: {fileID: 114937940396305470, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: InventorySlot, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114979007725845530, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1977647306}
+    - target: {fileID: 114979007725845530, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UseItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 114979007725845530, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: InventorySlot, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 224031219137100214, guid: 9b2ddd785fc76f34c862c4097c9a4d05, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1360,6 +1480,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryUI: {fileID: 1907910188}
   itemsParent: {fileID: 1907910187}
+--- !u!1 &1045790008 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1914353784503950, guid: 4c06d0e41c9ab87418af67603196c8e5, type: 3}
+  m_PrefabInstance: {fileID: 1518040161}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1045790009 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4514474492770318, guid: 4c06d0e41c9ab87418af67603196c8e5, type: 3}
+  m_PrefabInstance: {fileID: 1518040161}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1045790010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045790008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d90e8318128296e4e8563a712ad113c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0.5
+  player: {fileID: 1452352463}
+  interactItem: {fileID: 1045790009}
+  item: {fileID: 11400000, guid: b7d3298f527d3374dabed78784a55e5e, type: 2}
 --- !u!1001 &1228413001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1610,6 +1756,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   playerAnim: {fileID: 1452352464}
+  inventoryUI: {fileID: 1907910188}
+  axe: {fileID: 1514994504}
+  showAxe: 0
+  isAttack: 0
 --- !u!4 &1452352463 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400066, guid: 1b7945602ded3ec43804b120aa9ed037, type: 3}
@@ -1628,6 +1778,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1452352457}
+--- !u!1 &1514994504 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100078, guid: 1b7945602ded3ec43804b120aa9ed037, type: 3}
+  m_PrefabInstance: {fileID: 374366947}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1518040161
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1707,6 +1862,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1089408291251160, guid: 4c06d0e41c9ab87418af67603196c8e5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 960309592}
+    - targetCorrespondingSourceObject: {fileID: 1914353784503950, guid: 4c06d0e41c9ab87418af67603196c8e5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1045790010}
     - targetCorrespondingSourceObject: {fileID: 1341006574788316, guid: 4c06d0e41c9ab87418af67603196c8e5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1931002626}
