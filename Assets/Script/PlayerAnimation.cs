@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -21,22 +22,35 @@ public class PlayerAnimation : MonoBehaviour
     void Update()
     {
         float speed = agent.velocity.magnitude / agent.speed; // ความเร็วการเคลื่อนที่
-        // เคลื่อนที่
-        bool isWalk = (speed > 0) ? true : false;
-        anim.SetBool("isWalk",isWalk);
-
-        /*if (speed > 0)
+        if (speed > 0)
         {
             anim.SetBool("isWalk", true);
         }
         else
         {
             anim.SetBool("isWalk", false);
-        }*/
+        }
 
         if (target!=null)
         {
             MovetoPoint(target.position);
+        }
+
+        if (Input.GetMouseButtonDown(1) && PlayerMovement.instance.showAxe)
+        {
+            if (!InventoryUI.instance.inventoryUI.activeSelf)
+            {
+                anim.SetTrigger("Attack");
+                PlayerMovement.instance.isAttack = true;
+            }
+        }
+
+        if (Input.GetMouseButtonUp(1) && PlayerMovement.instance.showAxe)
+        {
+            if (!InventoryUI.instance.inventoryUI.activeSelf)
+            {
+                PlayerMovement.instance.isAttack = false;
+            }
         }
     }
 }

@@ -7,7 +7,12 @@ public class InventoryUI : MonoBehaviour
     public GameObject inventoryUI;
     public Transform itemsParent;
     Inventory inventory;
-    
+    public static InventoryUI instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
     void Start()
     {
         inventory = Inventory.instance;
