@@ -18,6 +18,11 @@ public class Item : ScriptableObject
             PlayerMovement.instance.ShowAxe();
             RemoveItemFromInventory();
         }
+        if (name.Equals("Chicken"))
+        {
+            FoodController.instance.healingFood();
+            RemoveItemFromInventory();
+        }
     }
     public void RemoveItemFromInventory()
     {
