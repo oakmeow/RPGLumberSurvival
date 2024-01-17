@@ -70,3 +70,13 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/AxeyWorks/*
+Assets/ENVIRONMENT/*
+Assets/FreeCharacter/*
+Assets/Item/*
+Assets/MapManager/*
+Assets/PlayerController/*
+Assets/SkyBox/*
+Assets/SpriteItemDrop/*
+Assets/SpritesMenuUI/*
+Assets/UIBoard/*
